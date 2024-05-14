@@ -7,6 +7,7 @@ import inquirer from "inquirer";
 //3) compare user input with computer generate number and show result
 
 const randamnumber=Math.floor(Math.random()*7+3);
+console.log(    "Welcome to number Guessing Game")
 const answer=await inquirer.prompt([
     {
         name: "usernumber",
